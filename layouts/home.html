@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ $notes := where site.RegularPages "Section" "notes" }}
+  {{ if $notes }}
+    <ol class="note-list">
+      {{ range $notes.ByDate.Reverse }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </li>
+      {{ end }}
+    </ol>
+  {{ else }}
+    <p class="empty">No notes yet.</p>
+  {{ end }}
+{{ end }}

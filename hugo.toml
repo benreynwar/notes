@@ -1,0 +1,23 @@
+baseURL = "https://notes.ben.reynwar.net/"
+languageCode = "en-us"
+title = "Ben's Notes"
+copyright = "Ben Reynwar"
+enableRobotsTXT = true
+
+[params]
+  description = "Notes on software, ideas, and things worth remembering."
+  author = "Ben Reynwar"
+
+[permalinks]
+  notes = "/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.extensions]
+    table = true
+  [markup.goldmark.renderer]
+    unsafe = true

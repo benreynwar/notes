@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+mapfile -t sources < <(find content -type f -name '*.drawio' -print | sort)
+
+for source in "${sources[@]}"; do
+  output="${source%.drawio}.png"
+  if [[ -f "$output" && "$output" -nt "$source" ]]; then
+    continue
+  fi
+
+  echo "Rendering $source"
+  xvfb-run --auto-servernum drawio \
+    --no-sandbox \
+    --disable-gpu \
+    --export \
+    --format png \
+    --crop \
+    --output "$output" \
+    "$source"
+done
