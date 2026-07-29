@@ -86,6 +86,8 @@ directly written into the multiplicand registers, and are then stationary
 array along the same paths; however, it is transposed relative to how it is sent
 through the sum-stationary design.
 
+![Weight-Stationary Flow](weight_stationary_flow.png)
+
 Power and Area Metrics
 ----------------------
 
