@@ -7,6 +7,8 @@ enableRobotsTXT = true
 [params]
   description = "Notes on software, ideas, and things worth remembering."
   author = "Ben Reynwar"
+  github = "https://github.com/benreynwar"
+  linkedin = "https://www.linkedin.com/in/benreynwar"
 
 [permalinks]
   notes = "/:slug/"

@@ -37,6 +37,23 @@ body > footer {
   gap: 1.5rem;
 }
 
+body > footer nav {
+  display: flex;
+  gap: 1rem;
+}
+
+body > footer nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+body > footer nav svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
 main { padding: 4rem 0; }
 .intro { margin-bottom: 3.5rem; }
 
@@ -127,4 +144,5 @@ body > footer {
 @media (max-width: 520px) {
   main { padding: 3rem 0; }
   .note-list li { grid-template-columns: 1fr; }
+  body > footer { align-items: flex-start; flex-direction: column; gap: .5rem; }
 }
