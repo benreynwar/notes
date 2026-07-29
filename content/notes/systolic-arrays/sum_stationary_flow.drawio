@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="vt751aSVGHjPuyaU-CxO">
-    <mxGraphModel dx="2234" dy="1296" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="993" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -693,9 +693,6 @@
         </mxCell>
         <mxCell id="1YhnunAMbf6OGyLPsvdt-312" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#999999;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="1350" y="880" as="geometry" />
-        </mxCell>
-        <mxCell id="1YhnunAMbf6OGyLPsvdt-326" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="2" vertex="1">
-          <mxGeometry height="40" width="40" x="720" y="680" as="geometry" />
         </mxCell>
         <mxCell id="1YhnunAMbf6OGyLPsvdt-332" edge="1" parent="1" source="1YhnunAMbf6OGyLPsvdt-327" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" target="1YhnunAMbf6OGyLPsvdt-330">
           <mxGeometry relative="1" as="geometry" />

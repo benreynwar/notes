@@ -12,7 +12,6 @@ for source in "${sources[@]}"; do
   echo "Rendering $source"
   xvfb-run --auto-servernum drawio \
     --no-sandbox \
-    --disable-gpu \
     --export \
     --format png \
     --crop \
